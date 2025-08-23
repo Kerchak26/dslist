@@ -21,7 +21,7 @@ public class Game {
     private String imgUrl;
 
     @Column(columnDefinition = "TEXT")
-    private String shortDescription;    
+    private String shortDescription;
 
     @Column(columnDefinition = "TEXT")
     private String longDescription;
@@ -57,11 +57,11 @@ public class Game {
         this.title = title;
     }
 
-    public Integer getYaer() {
+    public Integer getYear() {
         return year;
     }
 
-    public void setYaer(Integer yaer) {
+    public void setYear(Integer year) {
         this.year = year;
     }
 
